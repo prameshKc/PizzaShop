@@ -1,0 +1,45 @@
+[
+
+  {
+    "pizzaID": 1,
+    "pizzaName": "Capricciosa",
+    "description": "Cheese, Ham, Mushrooms, Olives",
+    "basePrice": 20.00,
+    "Photo": "images/pizzas/1.jpg",
+    "pizzeriaID": 1
+  },
+  {
+    "pizzaID": 2,
+    "pizzaName": "Mexicana",
+    "description": "Cheese, Salami, Capsicum, Chilli",
+    "basePrice": 18.00,
+    "Photo": "images/pizzas/2.jpg",
+    "pizzeriaID": 1
+  },
+  {
+    "pizzaID": 3,
+    "pizzaName": "Margherita",
+    "description": "Cheese, Spinach, Ricotta, Cherry Tomatoes",
+    "basePrice": 22.00,
+    "Photo": "images/pizzas/3.jpg",
+    "pizzeriaID": 1
+  },
+  {
+    "pizzaID": 4,
+    "pizzaName": "Capricciosa",
+    "description": "Cheese, Ham, Mushrooms, Olives",
+    "basePrice": 25.00,
+    "Photo": "images/pizzas/4.jpg",
+    "pizzeriaID": 2
+  },
+  {
+    "pizzaID": 5,
+    "pizzaName": "Vegetarian",
+    "description": "Cheese, Mushrooms, Capsicum, Onion, Olives",
+    "basePrice": 17.00,
+    "Photo": "images/pizzas/5.jpg",
+    "pizzeriaID": 2
+  }
+
+
+]

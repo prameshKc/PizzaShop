@@ -1,0 +1,14 @@
+[
+  {
+    "PizzeriaID": 1,
+    "PizzeriaName": "Preston Pizzeria",
+    "Location": "123 High Street, Preston",
+    "Phone": "123-456-7890"
+  },
+  {
+    "PizzeriaID": 2,
+    "PizzeriaName": "Southbank Pizzeria",
+    "Location": "456 City Road, Southbank",
+    "Phone": "098-765-4321"
+  }
+]

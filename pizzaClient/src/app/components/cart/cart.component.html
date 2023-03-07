@@ -1,0 +1,27 @@
+<section id="menu" class="menu">
+
+
+    <div class="box-container">
+
+        <div class="box" style="position: relative;top:70px;" *ngIf="pizza">
+
+            <div class="price">$<span>{{pizza.basePrice}}</span>/-</div>
+            <img src="{{env.rootUrl}}/{{pizza.photo}}" alt="">
+            <div class="name">{{pizza.pizzeriaName}} {{pizza.pizzaName}}</div>
+            <b>Toppings</b>
+
+            <div class="form-check">
+                <div *ngFor="let item of toppings">
+                    <input class=" form-check-input" type="checkbox" id="check1" name="option1" 
+                    value="something" (change)="addTop($event)">
+                    <label class="form-check-label">{{item}}</label>
+                </div>
+            </div>
+            <h3>Total Price: {{totalPrice}}</h3>
+            <form action="" method="post">
+                <input type="number" min="1" max="100"  (change)="QntyPrice($event)" value="1" class="qty" name="qty">
+                <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+            </form>
+        </div>
+    </div>
+</section>

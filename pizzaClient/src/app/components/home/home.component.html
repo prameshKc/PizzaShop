@@ -1,0 +1,339 @@
+<!-- header section ends -->
+
+<div class="user-account">
+
+    <section>
+ 
+       <div id="close-account"><span>close</span></div>
+ 
+       <div class="user">
+          <p><span>you are not logged in now!</span></p>
+       </div>
+ 
+       <div class="display-orders">
+          <p>pizza-1 <span>( $3/- x 2 )</span></p>
+          <p>pizza 03 <span>( $2/- x 1 )</span></p>
+          <p>pizza 06 <span>( $4/- x 4 )</span></p>
+          <p>pizza 07 <span>( $2/- x 1 )</span></p>
+       </div>
+ 
+       <div class="flex">
+ 
+          <form action="" method="post">
+             <h3>login now</h3>
+             <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+             <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+             <input type="submit" value="login now" name="login" class="btn">
+          </form>
+ 
+          <form action="" method="post">
+             <h3>register now</h3>
+             <input type="text" name="name" required class="box" placeholder="enter your name" maxlength="20">
+             <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="50">
+             <input type="password" name="pass" required class="box" placeholder="enter your password" maxlength="20">
+             <input type="password" name="cpass" required class="box" placeholder="confirm your password" maxlength="20">
+             <input type="submit" value="register now" name="register" class="btn">
+          </form>
+ 
+       </div>
+ 
+    </section>
+ 
+ </div>
+ 
+ <div class="my-orders">
+ 
+    <section>
+ 
+       <div id="close-orders"><span>close</span></div>
+ 
+       <h3 class="title"> my orders </h3>
+ 
+       <div class="box">
+          <p>placed on : <span>06/04/2022</span> </p>
+          <p>name : <span>shaikh anas</span> </p>
+          <p>number : <span>1234567890</span></p>
+          <p>address : <span>flat no. 123, bulding no. 2, jogeshwari, mumbai, india - 400104</span></p>
+          <p>payment method : <span>cash on delivery</span></p>
+          <p>your orders : <span>pizza 01 $3/- x 2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/- x 1</span></p>
+          <p>total price : <span>$11/-</span></p>
+          <p>payment status : <span style="color: var(--red);">pending</span> </p>
+       </div>
+ 
+       <div class="box">
+          <p>placed on : <span>06/04/2022</span> </p>
+          <p>name : <span>shaikh anas</span> </p>
+          <p>number : <span>1234567890</span></p>
+          <p>address : <span>flat no. 123, bulding no. 2, jogeshwari, mumbai, india - 400104</span></p>
+          <p>payment method : <span>cash on delivery</span></p>
+          <p>your orders : <span>pizza 01 $3/- x 2, pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/- x 1</span></p>
+          <p>total price : <span>$11/-</span></p>
+          <p>payment status : <span style="color: var(--red);">pending</span> </p>
+       </div>
+ 
+    </section>
+ 
+ </div>
+ 
+ <div class="shopping-cart">
+ 
+    <section>
+ 
+       <div id="close-cart"><span>close</span></div>
+ 
+       <div class="box">
+          <a href="#" class="fas fa-times"></a>
+          <img src="/assets/images/pizza-1.jpg" alt="">
+          <div class="content">
+             <p>pizza-1 <span>( $3/- x 2 )</span></p>
+             <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+             </form>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <a href="#" class="fas fa-times"></a>
+          <img src="/assets/images/pizza-3.jpg" alt="">
+          <div class="content">
+             <p>pizza-3 <span>( $2/- x 1 )</span></p>
+             <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+             </form>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <a href="#" class="fas fa-times"></a>
+          <img src="/assets/images/pizza-6.jpg" alt="">
+          <div class="content">
+             <p>pizza-6 <span>( $4/- x 2 )</span></p>
+             <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+             </form>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <a href="#" class="fas fa-times"></a>
+          <img src="/assets/images/pizza-7.jpg" alt="">
+          <div class="content">
+             <p>pizza-7 <span>( $2/- x 1 )</span></p>
+             <form action="" method="post">
+                <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+                <button type="submit" class="fas fa-edit" name="update_qty"></button>
+             </form>
+          </div>
+       </div>
+ 
+       <a href="#order" class="btn">order now</a>
+ 
+    </section>
+ 
+ </div>
+ 
+ <div class="home-bg">
+ 
+    <section class="home" id="home">
+ 
+       <div class="slide-container">
+ 
+          <div class="slide active">
+             <div class="image">
+                <img src="/assets/images/home-img-1.png" alt="">
+             </div>
+             <div class="content">
+                <h3>homemade Pepperoni Pizza</h3>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+             </div>
+          </div>
+ 
+          <div class="slide">
+             <div class="image">
+                <img src="/assets/images/home-img-2.png" alt="">
+             </div>
+             <div class="content">
+                <h3>Pizza With Mushrooms</h3>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+             </div>
+          </div>
+ 
+          <div class="slide">
+             <div class="image">
+                <img src="/assets/images/home-img-3.png" alt="">
+             </div>
+             <div class="content">
+                <h3>Mascarpone And Mushrooms</h3>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+                <div class="fas fa-angle-right" onclick="next()"></div>
+             </div>
+          </div>
+ 
+       </div>
+ 
+    </section>
+ 
+ </div>
+ 
+ <!-- about section starts  -->
+ 
+ <section class="about" id="about">
+ 
+    <h1 class="heading">about us</h1>
+ 
+    <div class="box-container">
+ 
+       <div class="box">
+          <img src="/assets/images/about-1.svg" alt="">
+          <h3>made with love</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quae amet beatae magni numquam facere sit. Tempora vel laboriosam repudiandae!</p>
+          <a href="#menu" class="btn">our menu</a>
+       </div>
+ 
+       <div class="box">
+          <img src="/assets/images/about-2.svg" alt="">
+          <h3>30 minutes delivery</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quae amet beatae magni numquam facere sit. Tempora vel laboriosam repudiandae!</p>
+          <a href="#menu" class="btn">our menu</a>
+       </div>
+ 
+       <div class="box">
+          <img src="/assets/images/about-3.svg" alt="">
+          <h3>share with freinds</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quae amet beatae magni numquam facere sit. Tempora vel laboriosam repudiandae!</p>
+          <a href="#menu" class="btn">our menu</a>
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- about section ends -->
+ 
+ <!-- menu section starts  -->
+ 
+ <app-pizza></app-pizza>
+ <!-- menu section ends -->
+ 
+ <!-- order section starts  -->
+ 
+ <section class="order" id="order">
+ 
+    <h1 class="heading">order now</h1>
+ 
+    <form action="" method="post">
+ 
+       <div class="display-orders">
+          <p>pizza-1 <span>( $3/- x 2 )</span></p>
+          <p>pizza 03 <span>( $2/- x 1 )</span></p>
+          <p>pizza 06 <span>( $4/- x 4 )</span></p>
+          <p>pizza 07 <span>( $2/- x 1 )</span></p>
+       </div>
+ 
+       <div class="flex">
+          <div class="inputBox">
+             <span>your name :</span>
+             <input type="text" name="name" class="box" required placeholder="enter your name" maxlength="20">
+          </div>
+          <div class="inputBox">
+             <span>your number :</span>
+             <input type="number" name="number" class="box" required placeholder="enter your number" min="0">
+          </div>
+          <div class="inputBox">
+             <span>payment method</span>
+             <select name="method" class="box">
+                <option value="cash on delivery">cash on delivery</option>
+                <option value="credit card">credit card</option>
+                <option value="paytm">paytm</option>
+                <option value="paypal">paypal</option>
+             </select>
+          </div>
+          <div class="inputBox">
+             <span>address line 01 :</span>
+             <input type="text" name="flat" class="box" required placeholder="e.g. flat no." maxlength="50">
+          </div>
+          <div class="inputBox">
+             <span>address line 02 :</span>
+             <input type="text" name="street" class="box" required placeholder="e.g. street name." maxlength="50">
+          </div>
+          <div class="inputBox">
+             <span>pin code :</span>
+             <input type="number" name="pin_code" class="box" required placeholder="e.g. 123456" min="0">
+          </div>
+       </div>
+ 
+       <input type="submit" value="order now" class="btn" name="order">
+ 
+    </form>
+ 
+ </section>
+ 
+ <!-- order section ends -->
+ 
+ <!-- faq section starts  -->
+ 
+ <section class="faq" id="faq">
+ 
+    <h1 class="heading">FAQ</h1>
+ 
+    <div class="accordion-container">
+ 
+       <div class="accordion active">
+          <div class="accordion-heading">
+             <span>how does it work?</span>
+             <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accrodion-content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+          </p>
+       </div>
+ 
+       <div class="accordion">
+          <div class="accordion-heading">
+             <span>how long does it take for delivery?</span>
+             <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accrodion-content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+          </p>
+       </div>
+ 
+       <div class="accordion">
+          <div class="accordion-heading">
+             <span>can I order for huge parties?</span>
+             <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accrodion-content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+          </p>
+       </div>
+ 
+       <div class="accordion">
+          <div class="accordion-heading">
+             <span>how much protein it contains?</span>
+             <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accrodion-content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+          </p>
+       </div>
+ 
+ 
+       <div class="accordion">
+          <div class="accordion-heading">
+             <span>is it cooked with oil?</span>
+             <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accrodion-content">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+          </p>
+       </div>
+ 
+    </div>
+ 
+ </section>

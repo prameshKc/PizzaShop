@@ -1,0 +1,20 @@
+[
+  {
+    "UserID": 1,
+    "Username": "admin",
+    "Password": "admin",
+    "PizzeriaID": 0
+  },
+  {
+    "UserID": 2,
+    "Username": "preston",
+    "Password": "preston",
+    "PizzeriaID": 1
+  },
+  {
+    "UserID": 3,
+    "Username": "southbank",
+    "Password": "southbank",
+    "PizzeriaID": 2
+  }
+]

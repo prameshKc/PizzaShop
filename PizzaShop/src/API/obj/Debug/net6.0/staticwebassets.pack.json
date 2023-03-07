@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\durga\\source\\repos\\PizzaShop\\src\\API\\wwwroot\\images\\pizzas\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\9.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

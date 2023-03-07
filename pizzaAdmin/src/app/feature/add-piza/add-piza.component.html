@@ -1,0 +1,49 @@
+<form [formGroup]="pizzaForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="pizzaName">Pizza Name:</label>
+      <input type="text" class="form-control" formControlName="pizzaName" placeholder="Enter pizza name">
+      <div class="invalid-feedback" *ngIf="pizzaForm.get('pizzaName')?.invalid 
+             && (pizzaForm.get('pizzaName')?.dirty || pizzaForm.get('pizzaName')?.touched)">
+        <div *ngIf="pizzaForm.get('pizzaName')?.errors">Pizza name is required.</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <input type="text" class="form-control" formControlName="description" placeholder="Enter pizza description">
+      <div class="invalid-feedback" 
+      *ngIf="pizzaForm.get('description')?.invalid && (pizzaForm.get('description')?.dirty 
+      || pizzaForm.get('description')?.touched)">
+        <div *ngIf="pizzaForm.get('description')?.errors">Description is required.</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="basePrice">Base Price:</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+        </div>
+        <input type="number" class="form-control" formControlName="basePrice" placeholder="Enter base price" step="0.01" min="0.00">
+        <div class="invalid-feedback" *ngIf="pizzaForm.get('basePrice')?.invalid
+         && (pizzaForm.get('basePrice')?.dirty || pizzaForm.get('basePrice')?.touched)">
+          <div *ngIf="pizzaForm.get('basePrice')?.errors">Base price is required.</div>
+          <div *ngIf="pizzaForm.get('basePrice')?.errors?.['min']">Base price cannot be negative.</div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="photo">Photo:</label>
+      <div class="input-group">
+        <input type="text" class="form-control" formControlName="photoUrl" placeholder="Enter photo URL">
+        <div class="input-group-append">
+          <span class="input-group-text">
+            <input type="file" accept="image/*" (change)="previewImage($event)">
+          </span>
+        </div>
+      </div>
+      <div class="mt-2">
+        <img [src]="previewUrl" alt="Preview image" style="max-width: 200px; max-height: 200px;">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  

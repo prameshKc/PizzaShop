@@ -1,0 +1,19 @@
+<section id="menu" class="menu">
+ 
+  <h1 class="heading">our menu</h1>
+
+  <div class="box-container" *ngIf="pizzas">
+
+     <div class="box" *ngFor="let pizza of pizzas">
+        <div class="price">$<span>{{pizza.basePrice}}</span>/-</div>
+        <img src="{{env.rootUrl}}/{{pizza.photo}}" alt="">
+        <div class="name">{{pizza.pizzeriaName}} {{pizza.pizzaName}}</div>
+        <a role="button" routerLink="cart/{{pizza.pizzaID}}" value="add to cart" name="add_to_cart" class="btn">
+         Add to cart
+      </a>
+     </div>
+
+
+  </div>
+
+</section>
